@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(/imagens/fundo2.gif);
+    background-image: url(/imagens/fundo.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -127,6 +127,7 @@ a{
     bottom: 91%;
     right: 90%;
 }
+
 
 
 .imgluffy{
