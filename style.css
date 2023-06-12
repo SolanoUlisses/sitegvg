@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/fundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    padding: 80px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 3%;
+    border-color: black;
+    background-color: rgb(228, 234, 236);
+    text-align: center;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containertier{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3{
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h2inicio, .h3inicio{
+    text-align: justify;
+}
+
+#cabecalho .menu{
+    background-color: rgb(48, 170, 226, 0.6);
+    margin-bottom: 50px;
+    border: 1px solid #000;
+}
+
+#cabecalho .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+#cabecalho .menu ul li{
+    position: relative;
+    list-style: none;
+}
+
+#cabecalho .menu ul li .submenu{
+    display: none;
+    position: absolute;
+    background-color: rgb(48, 170, 226);
+    flex-direction: column;
+    width: 90px;
+}
+
+#cabecalho .menu ul li .submenu li{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#cabecalho .menu ul li:hover .submenu{
+    display: block;
+}
+
+
+#cabecalho .menu a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #faf8f8;
+    transition: all 0.3s linear;
+}
+
+#cabecalho .menu a:hover{
+    background-color: rgb(182, 186, 190, 0.6);
+    color: black;
+}
+
+#rodape{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(20, 19, 19, 0.95);
+    padding: 30px;
+    color: #fffdfd;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: #06c;
+    transition: .3s linear;
+}
+
+#rodape a:hover{
+    background-color: #06c;
+    color: #000;
+    border-radius: 5px;
+}
+
+.grandlinelogo{
+    position: absolute;
+    bottom: 91%;
+    right: 90%;
+}
+
+
+
+.imgluffy{
+    position: absolute;
+    left: 7%;
+    bottom: 30%;
+
+}
+
+.imgluffy2{
+    position: absolute;
+    right: 46%;
+    bottom: 80%;
+    max-width: 100%;
+
+}
+
+.aceimg{
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+    max-width: 100%;
+
+}
+
+.zoroimg{
+    position: absolute;
+    left: 26%;
+    top: 113%;
+    max-width: 100%;
+}
+
+.imgbarco{
+    position: absolute;
+    top: 85%;
+    right: 1%;
+}
+
+.sobre-classes{
+    border: 1px solid #000;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.sobre-classes ul li{
+    border: 1px solid #000;
+    list-style: none;
+}
